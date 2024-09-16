@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.564);
+    backdrop-filter: blur(40px);
+    padding: 2rem 4rem;
+    width: 25rem;
+    border-radius: 1.2rem;
+    box-shadow: 1rem 1rem 4rem rgba(197, 197, 197, 0.705);
+    margin-top: 5rem;
+}
+.loginText{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.inputBar{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: solid 1px gray;
+    height: 1.5rem;
+    
+}
+
+.labelText{
+    font-size: 1rem;
+    color: rgb(82, 82, 82);
+}
+
+.loginButton{
+    padding: 1rem;
+    font-size: 1.3rem;
+    border-radius: 0.8rem;
+    border: none;
+    background-color: rgb(29, 113, 204);
+    color: white;
+    box-shadow: 1rem 1rem 4rem rgba(197, 197, 197, 0.705);
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.loginButtonGoogle{
+    padding: 1rem;
+    font-size: 1.3rem;
+    border-radius: 0.8rem;
+    border: none;
+    background-color:white;
+    border: 2px solid rgb(29, 113, 204);;
+    color: rgb(0, 0, 0);
+    box-shadow: 1rem 1rem 4rem rgba(197, 197, 197, 0.705);
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.loginButton:hover{
+    background-color: rgb(23, 97, 184);
+    }
+.signUpButton{
+    padding: 0rem 2rem;
+    height: 2rem;
+    font-size: 0.9rem;
+    border-radius: 0.8rem;
+    border: none;
+    background-color: rgb(79, 104, 131);
+    color: white;
+
+}
+.signUpButton:hover{
+    background-color: rgb(63, 84, 108);
+    transition: all ease 0.3s;
+}
+
+.signUp{
+    font-size: 1rem;
+}
+
+.signUpDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}

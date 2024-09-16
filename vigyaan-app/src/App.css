@@ -1,0 +1,6 @@
+:root{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: rgb(244, 244, 244);
+}
